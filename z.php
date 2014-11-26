@@ -1,2 +1,2 @@
 <?php
-echo shell_exec("sudo /home/zhaomingxing/commit.sh >> /tmp/x");
+echo shell_exec("sudo -u zhaomingxing /home/zhaomingxing/commit.sh >> /tmp/x");
